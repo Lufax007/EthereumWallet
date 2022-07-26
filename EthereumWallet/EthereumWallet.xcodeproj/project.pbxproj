@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F0DB832288E693000D70D5F /* WalletRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DB831288E693000D70D5F /* WalletRequest.swift */; };
+		9F0DB834288E6AF400D70D5F /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DB833288E6AF400D70D5F /* CoinModel.swift */; };
+		9F0DB837288E6CD800D70D5F /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DB836288E6CD800D70D5F /* NetworkApi.swift */; };
+		9F451FCA288C0DE200D71917 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451FC9288C0DE200D71917 /* NavigationBarView.swift */; };
+		9F451FCE288C220D00D71917 /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451FCD288C220D00D71917 /* ColorHex.swift */; };
+		9F451FD0288C315600D71917 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451FCF288C315600D71917 /* AccountView.swift */; };
+		9F451FD3288C337400D71917 /* AccountInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451FD2288C337400D71917 /* AccountInfoModel.swift */; };
+		9F451FD5288D24BD00D71917 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451FD4288D24BD00D71917 /* MenuItem.swift */; };
+		9F451FD7288D2F5400D71917 /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451FD6288D2F5400D71917 /* SendView.swift */; };
+		9F451FD9288D420600D71917 /* NavgationBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451FD8288D420600D71917 /* NavgationBarModel.swift */; };
+		9F451FDB288D7E8500D71917 /* CoinListSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F451FDA288D7E8500D71917 /* CoinListSwitchView.swift */; };
+		9F47CEEC288BFFCF0049C2E9 /* EthereumWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CEEB288BFFCF0049C2E9 /* EthereumWalletApp.swift */; };
+		9F47CEEE288BFFCF0049C2E9 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CEED288BFFCF0049C2E9 /* HomePage.swift */; };
+		9F47CEF0288BFFD00049C2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F47CEEF288BFFD00049C2E9 /* Assets.xcassets */; };
+		9F47CEF3288BFFD00049C2E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F47CEF2288BFFD00049C2E9 /* Preview Assets.xcassets */; };
+		9F47CEFD288BFFD00049C2E9 /* EthereumWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CEFC288BFFD00049C2E9 /* EthereumWalletTests.swift */; };
+		9F47CF07288BFFD00049C2E9 /* EthereumWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CF06288BFFD00049C2E9 /* EthereumWalletUITests.swift */; };
+		9F47CF09288BFFD00049C2E9 /* EthereumWalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CF08288BFFD00049C2E9 /* EthereumWalletUITestsLaunchTests.swift */; };
+		9FB3858E288ECBC800CD56B5 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3858D288ECBC800CD56B5 /* ScannerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F47CEF9288BFFD00049C2E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F47CEE0288BFFCF0049C2E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F47CEE7288BFFCF0049C2E9;
+			remoteInfo = EthereumWallet;
+		};
+		9F47CF03288BFFD00049C2E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F47CEE0288BFFCF0049C2E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F47CEE7288BFFCF0049C2E9;
+			remoteInfo = EthereumWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F0DB831288E693000D70D5F /* WalletRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletRequest.swift; sourceTree = "<group>"; };
+		9F0DB833288E6AF400D70D5F /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		9F0DB836288E6CD800D70D5F /* NetworkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApi.swift; sourceTree = "<group>"; };
+		9F451FC9288C0DE200D71917 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		9F451FCD288C220D00D71917 /* ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex.swift; sourceTree = "<group>"; };
+		9F451FCF288C315600D71917 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		9F451FD2288C337400D71917 /* AccountInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoModel.swift; sourceTree = "<group>"; };
+		9F451FD4288D24BD00D71917 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		9F451FD6288D2F5400D71917 /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
+		9F451FD8288D420600D71917 /* NavgationBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavgationBarModel.swift; sourceTree = "<group>"; };
+		9F451FDA288D7E8500D71917 /* CoinListSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListSwitchView.swift; sourceTree = "<group>"; };
+		9F47CEE8288BFFCF0049C2E9 /* EthereumWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EthereumWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F47CEEB288BFFCF0049C2E9 /* EthereumWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumWalletApp.swift; sourceTree = "<group>"; };
+		9F47CEED288BFFCF0049C2E9 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		9F47CEEF288BFFD00049C2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F47CEF2288BFFD00049C2E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F47CEF8288BFFD00049C2E9 /* EthereumWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EthereumWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F47CEFC288BFFD00049C2E9 /* EthereumWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumWalletTests.swift; sourceTree = "<group>"; };
+		9F47CF02288BFFD00049C2E9 /* EthereumWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EthereumWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F47CF06288BFFD00049C2E9 /* EthereumWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumWalletUITests.swift; sourceTree = "<group>"; };
+		9F47CF08288BFFD00049C2E9 /* EthereumWalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumWalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FB3858D288ECBC800CD56B5 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		9FB3858F288ECFD500CD56B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F47CEE5288BFFCF0049C2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F47CEF5288BFFD00049C2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F47CEFF288BFFD00049C2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0DB835288E6C4400D70D5F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9F0DB836288E6CD800D70D5F /* NetworkApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9F451FC8288C0DA900D71917 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9F451FC9288C0DE200D71917 /* NavigationBarView.swift */,
+				9F451FCF288C315600D71917 /* AccountView.swift */,
+				9F451FD6288D2F5400D71917 /* SendView.swift */,
+				9F451FDA288D7E8500D71917 /* CoinListSwitchView.swift */,
+				9FB3858D288ECBC800CD56B5 /* ScannerView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9F451FCC288C219E00D71917 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				9F451FCD288C220D00D71917 /* ColorHex.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		9F451FD1288C334600D71917 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9F451FD2288C337400D71917 /* AccountInfoModel.swift */,
+				9F451FD4288D24BD00D71917 /* MenuItem.swift */,
+				9F451FD8288D420600D71917 /* NavgationBarModel.swift */,
+				9F0DB833288E6AF400D70D5F /* CoinModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9F451FDC288E676700D71917 /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				9F0DB831288E693000D70D5F /* WalletRequest.swift */,
+			);
+			path = "view model";
+			sourceTree = "<group>";
+		};
+		9F47CEDF288BFFCF0049C2E9 = {
+			isa = PBXGroup;
+			children = (
+				9F47CEEA288BFFCF0049C2E9 /* EthereumWallet */,
+				9F47CEFB288BFFD00049C2E9 /* EthereumWalletTests */,
+				9F47CF05288BFFD00049C2E9 /* EthereumWalletUITests */,
+				9F47CEE9288BFFCF0049C2E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F47CEE9288BFFCF0049C2E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F47CEE8288BFFCF0049C2E9 /* EthereumWallet.app */,
+				9F47CEF8288BFFD00049C2E9 /* EthereumWalletTests.xctest */,
+				9F47CF02288BFFD00049C2E9 /* EthereumWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F47CEEA288BFFCF0049C2E9 /* EthereumWallet */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3858F288ECFD500CD56B5 /* Info.plist */,
+				9F0DB835288E6C4400D70D5F /* Network */,
+				9F451FDC288E676700D71917 /* view model */,
+				9F451FD1288C334600D71917 /* model */,
+				9F451FCC288C219E00D71917 /* extension */,
+				9F451FC8288C0DA900D71917 /* view */,
+				9F47CEEB288BFFCF0049C2E9 /* EthereumWalletApp.swift */,
+				9F47CEED288BFFCF0049C2E9 /* HomePage.swift */,
+				9F47CEEF288BFFD00049C2E9 /* Assets.xcassets */,
+				9F47CEF1288BFFD00049C2E9 /* Preview Content */,
+			);
+			path = EthereumWallet;
+			sourceTree = "<group>";
+		};
+		9F47CEF1288BFFD00049C2E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F47CEF2288BFFD00049C2E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F47CEFB288BFFD00049C2E9 /* EthereumWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F47CEFC288BFFD00049C2E9 /* EthereumWalletTests.swift */,
+			);
+			path = EthereumWalletTests;
+			sourceTree = "<group>";
+		};
+		9F47CF05288BFFD00049C2E9 /* EthereumWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F47CF06288BFFD00049C2E9 /* EthereumWalletUITests.swift */,
+				9F47CF08288BFFD00049C2E9 /* EthereumWalletUITestsLaunchTests.swift */,
+			);
+			path = EthereumWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F47CEE7288BFFCF0049C2E9 /* EthereumWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F47CF0C288BFFD00049C2E9 /* Build configuration list for PBXNativeTarget "EthereumWallet" */;
+			buildPhases = (
+				9F47CEE4288BFFCF0049C2E9 /* Sources */,
+				9F47CEE5288BFFCF0049C2E9 /* Frameworks */,
+				9F47CEE6288BFFCF0049C2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EthereumWallet;
+			productName = EthereumWallet;
+			productReference = 9F47CEE8288BFFCF0049C2E9 /* EthereumWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F47CEF7288BFFD00049C2E9 /* EthereumWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F47CF0F288BFFD00049C2E9 /* Build configuration list for PBXNativeTarget "EthereumWalletTests" */;
+			buildPhases = (
+				9F47CEF4288BFFD00049C2E9 /* Sources */,
+				9F47CEF5288BFFD00049C2E9 /* Frameworks */,
+				9F47CEF6288BFFD00049C2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F47CEFA288BFFD00049C2E9 /* PBXTargetDependency */,
+			);
+			name = EthereumWalletTests;
+			productName = EthereumWalletTests;
+			productReference = 9F47CEF8288BFFD00049C2E9 /* EthereumWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F47CF01288BFFD00049C2E9 /* EthereumWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F47CF12288BFFD00049C2E9 /* Build configuration list for PBXNativeTarget "EthereumWalletUITests" */;
+			buildPhases = (
+				9F47CEFE288BFFD00049C2E9 /* Sources */,
+				9F47CEFF288BFFD00049C2E9 /* Frameworks */,
+				9F47CF00288BFFD00049C2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F47CF04288BFFD00049C2E9 /* PBXTargetDependency */,
+			);
+			name = EthereumWalletUITests;
+			productName = EthereumWalletUITests;
+			productReference = 9F47CF02288BFFD00049C2E9 /* EthereumWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F47CEE0288BFFCF0049C2E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9F47CEE7288BFFCF0049C2E9 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					9F47CEF7288BFFD00049C2E9 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 9F47CEE7288BFFCF0049C2E9;
+					};
+					9F47CF01288BFFD00049C2E9 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 9F47CEE7288BFFCF0049C2E9;
+					};
+				};
+			};
+			buildConfigurationList = 9F47CEE3288BFFCF0049C2E9 /* Build configuration list for PBXProject "EthereumWallet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F47CEDF288BFFCF0049C2E9;
+			productRefGroup = 9F47CEE9288BFFCF0049C2E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F47CEE7288BFFCF0049C2E9 /* EthereumWallet */,
+				9F47CEF7288BFFD00049C2E9 /* EthereumWalletTests */,
+				9F47CF01288BFFD00049C2E9 /* EthereumWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F47CEE6288BFFCF0049C2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F47CEF3288BFFD00049C2E9 /* Preview Assets.xcassets in Resources */,
+				9F47CEF0288BFFD00049C2E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F47CEF6288BFFD00049C2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F47CF00288BFFD00049C2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F47CEE4288BFFCF0049C2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F451FD5288D24BD00D71917 /* MenuItem.swift in Sources */,
+				9F0DB837288E6CD800D70D5F /* NetworkApi.swift in Sources */,
+				9F47CEEE288BFFCF0049C2E9 /* HomePage.swift in Sources */,
+				9F451FCE288C220D00D71917 /* ColorHex.swift in Sources */,
+				9F451FD7288D2F5400D71917 /* SendView.swift in Sources */,
+				9FB3858E288ECBC800CD56B5 /* ScannerView.swift in Sources */,
+				9F0DB834288E6AF400D70D5F /* CoinModel.swift in Sources */,
+				9F0DB832288E693000D70D5F /* WalletRequest.swift in Sources */,
+				9F47CEEC288BFFCF0049C2E9 /* EthereumWalletApp.swift in Sources */,
+				9F451FDB288D7E8500D71917 /* CoinListSwitchView.swift in Sources */,
+				9F451FD9288D420600D71917 /* NavgationBarModel.swift in Sources */,
+				9F451FCA288C0DE200D71917 /* NavigationBarView.swift in Sources */,
+				9F451FD0288C315600D71917 /* AccountView.swift in Sources */,
+				9F451FD3288C337400D71917 /* AccountInfoModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F47CEF4288BFFD00049C2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F47CEFD288BFFD00049C2E9 /* EthereumWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F47CEFE288BFFD00049C2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F47CF09288BFFD00049C2E9 /* EthereumWalletUITestsLaunchTests.swift in Sources */,
+				9F47CF07288BFFD00049C2E9 /* EthereumWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F47CEFA288BFFD00049C2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F47CEE7288BFFCF0049C2E9 /* EthereumWallet */;
+			targetProxy = 9F47CEF9288BFFD00049C2E9 /* PBXContainerItemProxy */;
+		};
+		9F47CF04288BFFD00049C2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F47CEE7288BFFCF0049C2E9 /* EthereumWallet */;
+			targetProxy = 9F47CF03288BFFD00049C2E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F47CF0A288BFFD00049C2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F47CF0B288BFFD00049C2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F47CF0D288BFFD00049C2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EthereumWallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EthereumWallet/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "allow camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "allow photo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuanyuan.EthereumWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F47CF0E288BFFD00049C2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EthereumWallet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EthereumWallet/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "allow camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "allow photo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuanyuan.EthereumWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F47CF10288BFFD00049C2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuanyuan.EthereumWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EthereumWallet.app/EthereumWallet";
+			};
+			name = Debug;
+		};
+		9F47CF11288BFFD00049C2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuanyuan.EthereumWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EthereumWallet.app/EthereumWallet";
+			};
+			name = Release;
+		};
+		9F47CF13288BFFD00049C2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuanyuan.EthereumWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EthereumWallet;
+			};
+			name = Debug;
+		};
+		9F47CF14288BFFD00049C2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuanyuan.EthereumWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EthereumWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F47CEE3288BFFCF0049C2E9 /* Build configuration list for PBXProject "EthereumWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F47CF0A288BFFD00049C2E9 /* Debug */,
+				9F47CF0B288BFFD00049C2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F47CF0C288BFFD00049C2E9 /* Build configuration list for PBXNativeTarget "EthereumWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F47CF0D288BFFD00049C2E9 /* Debug */,
+				9F47CF0E288BFFD00049C2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F47CF0F288BFFD00049C2E9 /* Build configuration list for PBXNativeTarget "EthereumWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F47CF10288BFFD00049C2E9 /* Debug */,
+				9F47CF11288BFFD00049C2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F47CF12288BFFD00049C2E9 /* Build configuration list for PBXNativeTarget "EthereumWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F47CF13288BFFD00049C2E9 /* Debug */,
+				9F47CF14288BFFD00049C2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F47CEE0288BFFCF0049C2E9 /* Project object */;
+}
